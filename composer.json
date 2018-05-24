@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/dusk": "1.*",
+        "uofa/laravel-dusk": "1.*",
         "laravel/framework": "5.4.*",
         "phpunit/phpunit": "~5.7"
     },
@@ -24,6 +24,12 @@
         "tijsverkoyen/css-to-inline-styles": "*",
         "webmozart/assert": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/uofa/laravel-dusk.git"
+        }
+    ],
     "autoload": {
         "classmap": [
         ],
