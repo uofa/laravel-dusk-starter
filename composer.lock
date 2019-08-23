@@ -2269,6 +2269,6 @@
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "5.6.30"
+        "php": "5.6.40"
     }
 }
